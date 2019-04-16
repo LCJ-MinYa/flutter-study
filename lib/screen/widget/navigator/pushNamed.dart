@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class TestScreen extends StatefulWidget{
+class PushNamedScreen extends StatefulWidget{
 	@override
-	TestScreenState createState()=> new TestScreenState();
+	PushNamedScreenState createState()=> new PushNamedScreenState();
 }
 
-class TestScreenState extends State<TestScreen>{
+class PushNamedScreenState extends State<PushNamedScreen>{
     @override
 	Widget build(BuildContext context) {
         return Scaffold(
             appBar: AppBar(
-                title: Text('测试页面'),
+                title: Text('测试页面12'),
             ),
             body: Center(
                 child: Text('测试页面'),
